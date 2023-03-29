@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+    background: #ffffff;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 770px;
+}
+
+.container {
+    width: 350px;
+    height: 720px;
+    background: linear-gradient(45deg, #D87A64, #CE646F);
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+i.nav-icon {
+    color: #f7f2f7;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+span.heading {
+    font-size: 2em;
+    color: #f7f2f7;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+span.sub-heading {
+    color: #f7f2f7;
+    font-weight: 700;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+}
+
+form.registration-form {
+    text-align: center;
+    color: white;
+}
+
+div.form-group {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button.register-btn {
+    background: linear-gradient(to right, #f046da, #fe6f22);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.form-control{
+    border:none;
+}
