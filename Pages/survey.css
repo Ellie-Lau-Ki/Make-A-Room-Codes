@@ -38,40 +38,33 @@ span.sub-heading {
     letter-spacing: 1px;
 }
 
-form.registration-form {
-    text-align: center;
-    color: white;
-}
-
-div.form-group {
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-button.register-btn {
+button.start-btn{
     background: linear-gradient(to right, #f046da, #fe6f22);
     border: none;
     border-radius: 5px;
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px 40px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 900;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly
-}
-
-.form-control {
+button.skip-btn{
+    background: #162037;
     border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 a {
     text-decoration: none;
     color: white;
-}
+  }
+  
+
