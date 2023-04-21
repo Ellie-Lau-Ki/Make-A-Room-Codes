@@ -26,7 +26,7 @@
             <span class="sub-heading">This is the start of your one of a kind <br>Social Deduction Game journey</span>
         </div>
 
-        <form class="pt-4 px-2 registration-form">
+        <form action="" id="registrationForm">
             <div class="form-group">
                 <label for="name">Username</label>
                 <input type="text" class="form-control" id="name" name="name">
@@ -39,17 +39,19 @@
                 <label for="password">Password</label>
                 <input type="password" class="form-control" id="password" name="password">
             </div>
-            <div class="pb-4 form-group">
+
+            <div class="form-group">
                 <label for="confirm-password">Confirm Password</label>
                 <input type="confirm-password" class="form-control" id="confirm-password" name="confirm-password">
             </div>
-            <button type="submit" class="register-btn"><a href="survey.html">Register</a></button>
+            <div class="form-group">
+                <button type="submit" class="register-btn">Register</button>
+            </div>
         </form>
 
 
 
         <div class="pt-5 flex-container">
-
             <div><a href="#"><i class="fab fa-facebook nav-icon"></i></a></div>
             <div><a href="#"><i class="fab fa-twitter nav-icon"></i></a></div>
             <div><a href="#"><i class="fab fa-instagram nav-icon"></i></a></div>
@@ -57,4 +59,9 @@
         </div>
 
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./firebase.js"></script>
 </body>
+
+</html>
