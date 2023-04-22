@@ -51,3 +51,26 @@ span.sub-heading {
     height: auto;
     align-items: center;
 }
+
+button.register-btn {
+    background: linear-gradient(to right, #f046da, #fe6f22);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-weight: 900;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}

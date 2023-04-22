@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+    background: #ffffff;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 770px;
+}
+
+.container {
+    width: 350px;
+    height: 800px;
+    background: linear-gradient(45deg, #D87A64, #CE646F);
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+i.nav-icon {
+    color: #f7f2f7;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+span.heading {
+    font-size: 2em;
+    color: #f7f2f7;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+span.sub-heading {
+    color: #f7f2f7;
+    font-weight: 700;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    width: 100px;
+    height: auto;
+    align-items: center;
+}
+
+button.next-btn {
+    background: linear-gradient(to right, #f046da, #fe6f22);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-weight: 900;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.choice-bg {
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+}
