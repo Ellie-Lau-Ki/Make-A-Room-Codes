@@ -6,12 +6,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 770px;
+    height: 800px;
 }
 
 .container {
     width: 350px;
-    height: 800px;
+    height: 770px;
     background: linear-gradient(45deg, #D87A64, #CE646F);
     border-radius: 40px;
     margin-top: 10px;
@@ -61,7 +61,7 @@ button.next-btn {
     text-align: center;
     display: block;
     position: absolute;
-    top: 90%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 16px;
